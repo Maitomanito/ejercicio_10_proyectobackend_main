@@ -11,7 +11,8 @@
 </head>
 <body>
     
-<center><h1>  Ejercicio No. 4<br>Metodo POST</h1>  </center>
+<center><h1>  Ejercicio No. 4<br>Metodo POST</h1> Digite la fecha de nacimiento </center>
+<a href="http://localhost/proyectos-php/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
     
     <div class="main-frame-cal">
     <form action ="POST">
@@ -20,7 +21,7 @@
             <input type="date" name="f_n" class="form-control" id="exampleFormControlInput1">
         </div>
         
-        <button type="submit" name="verificar" class="btn btn-outline-info">Evíar</button>
+        <button type="submit" name="verificar" class="btn btn-outline-info">Envíar</button>
     </form>
 
     <?php

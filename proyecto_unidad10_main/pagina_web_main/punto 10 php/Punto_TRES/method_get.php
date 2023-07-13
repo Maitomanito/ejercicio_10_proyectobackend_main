@@ -11,10 +11,11 @@
 </head>
 <body>
     
-<center><h1>  Ejercicio No. 3 <br>Metodo GET</h1>  </center>
+<center><h1>  Ejercicio No. 3 <br>Metodo GET</h1> Digite los Valores </center>
+<a href="http://localhost/proyectos-php/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
     
     <div class="main-frame-cal">
-    <form action="" method="POST">
+    <form action="" method="get">
         <div class="form-group">
             <label for="exampleFormControlInput1">Nombre</label>
             <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Digite su Nombre">
@@ -27,26 +28,27 @@
             <label for="exampleFormControlInput1">Cédula</label>
             <input type="text" name="cc" class="form-control" id="exampleFormControlInput1" placeholder="Digite su Cédula">
         </div>
-        <button type="submit" name="verificar" class="btn btn-outline-info">Evíar</button>
+        <button type="submit" name="verificar" class="btn btn-outline-info">Envíar</button>
     </form>
 
-    <?php
+    <?php   
 
     $edad = 0;
     
     if (isset($_GET['verificar'])) {
         $nombre = $_GET['nombre'];
-        $apellido = $_POST['apellido'];
+        $apellido = $_GET['apellido'];
         $cedula = $_GET['cc'];
     
-        echo "Nombre : ".$nombre."<br>";
-        echo "Apellido : ".$apellido."<br>";
-        echo "Cédula : ".$cedula."<br>";
+        echo "Su Nombre es: ".$nombre."<br>";
+        echo "Su Apellido es: ".$apellido."<br>";
+        echo " Su Cédula es: ".$cedula."<br>";
 
     }
 
     ?>
 
     </div>
+   
 </body>
 </html>

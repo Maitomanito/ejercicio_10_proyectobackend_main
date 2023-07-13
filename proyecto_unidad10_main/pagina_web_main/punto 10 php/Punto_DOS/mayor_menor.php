@@ -11,9 +11,9 @@
 </head>
 <body>  
     
-<center><h1>  Ejercicio No. 2 <br>Calcular si es mayor o menor de edad</h1>  </center>
+<center><h1>  Ejercicio No. 2 <br>Calcular si es mayor o menor de edad</h1> Digite la edad </center>
  
-
+<a href="http://localhost/proyectos-php/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
 
     <div class="main-frame-cal">
     <form action="" method="POST">

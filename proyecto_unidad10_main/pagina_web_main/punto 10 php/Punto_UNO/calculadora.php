@@ -10,22 +10,25 @@
     
     <!--CND BOOTSTARP-->
  
-    
-    
+
     <title>Calculadora</title>
 </head>
 <body>
-<center><h1>  Ejercicio No. 1 <br>Calculadora Basica</h1>  </center>
-     
+    
+<center><h1>  Ejercicio No. 1 <br>Calculadora Basica</h1>Digite los Valores <br>
+         Selecciona una Operación</p> </center>
+<a href="http://localhost/proyectos-php/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
+
 
     <div class="main-frame-cal">
     <form action="" method="POST">
         <div class="form-group">
-            <label for="exampleFormControlInput1">Número 1:</label>
+            
+            <label for="exampleFormControlInput1">Ingrese valor # 1:</label>
             <input type="number" name="n1" class="form-control" id="exampleFormControlInput1" placeholder="Digite Número 1">
         </div>
         <div class="form-group">
-            <label for="exampleFormControlInput2">Número 2:</label>
+            <label for="exampleFormControlInput2">Ingrese valor # 2:</label>
             <input type="number" name="n2" class="form-control" id="exampleFormControlInput2" placeholder="Digite número 2">
         </div>
         <div class="form-group">
@@ -38,6 +41,7 @@
             </select>
         </div>
         <button type="submit" name="operar" class="btn btn-outline-info">Resultado</button>
+        
     </form>
 
     <?php
