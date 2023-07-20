@@ -17,7 +17,7 @@
     
 <center><h1>  Ejercicio No. 1 <br>Calculadora Basica</h1>Digite los Valores <br>
          Selecciona una Operación</p> </center>
-<a href="http://localhost/proyectos-php/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
+<a href="http://localhost/proyectos/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
 
 
     <div class="main-frame-cal">

@@ -12,10 +12,10 @@
 <body>
     
 <center><h1>  Ejercicio No. 4<br>Metodo POST</h1> Digite la fecha de nacimiento </center>
-<a href="http://localhost/proyectos-php/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
+<a href="http://localhost/proyectos/ejercicio_10_proyectobackend_main/proyecto_unidad10_main/pagina_web_main/landingpage_proyecto_unidad_10/index.html"><button type="button" class="btn btn-primary"> Ir al menú</button></a>
     
     <div class="main-frame-cal">
-    <form action ="POST">
+    <form action method="POST">
         <div class="form-group">
             <label for="exampleFormControlInput1">Seleecione su fecha de nacimiento:</label>
             <input type="date" name="f_n" class="form-control" id="exampleFormControlInput1">
